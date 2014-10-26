@@ -131,6 +131,7 @@
 	.sf-menu > li a i { margin-right: 5px; }
 	
 	.sf-menu > li > a span {
+		font-size:16px;
 	}
 
 	/**
@@ -147,7 +148,7 @@
 	}
 	
 	.sf-menu > li.dropdown > ul li a:hover {
-		color: #12c3ac;
+		color: #B31B1B;
 		border: none;
 		-o-transition:.1s;
 		-ms-transition:.1s;
@@ -209,7 +210,7 @@
 	.sf-mega-section-content .frr-button-green {
 		font-size:14px;
 		color:#FFF;
-		background:#12c3ac;
+		background:#B31B1B;
 		width:145px;
 		height: 43px;
 		margin-top:20px;
@@ -308,7 +309,7 @@
 		content: '';
 	}
 	#mobile-menu li.dropdown:hover .sf-with-ul span {
-		color:#12c3ac !important;
+		color:#B31B1B !important;
 	}
 	#moile-search {
 		margin-top:30px;
@@ -322,13 +323,13 @@
 		color:#c6ccd0;
 	}
 	#mobile-menu li a:hover {
-		color:#12c3ac;
+		color:#B31B1B;
 	}
 	#mobile-menu li.search-bt {display: none !important;}
 	#mobile-menu ul a { padding-left: 45px; }
 	
 	#mobile-menu li ul li a {color:#8c989f;font-weight: normal;padding-right: 0 !important;}
-	#mobile-menu li ul li a:hover {color:#12c3ac;}
+	#mobile-menu li ul li a:hover {color:#B31B1B;}
 	#mobile-menu li ul li {
 		padding:21px 0;
 	}
@@ -344,7 +345,7 @@
 	#mobile-menu li.mega-section .sf-mega-section-content a {
 		text-align: center;
 	}
-	#mobile-menu .mobile-menu-submenu-arrow:hover {color:#12c3ac;}
+	#mobile-menu .mobile-menu-submenu-arrow:hover {color:#B31B1B;}
 	#mobile-menu .dropdown a,
 	#mobile-menu .mega-section a{
 		padding-right: 20px;
@@ -366,7 +367,7 @@
 		color:#3e434b;
 	}	
 	#mobile-menu-trigger:hover {
-		color:#12c3ac;
+		color:#B31B1B;
 		text-decoration: none;
 	}
 	
@@ -471,12 +472,12 @@
 			width: 100%;
 		}
 		#mobile-menu2-trigger, #mobile-menu-trigger {
-    display: block;
-    margin-top: 0;
-    position: absolute;
-    right: -45px;
-    top: -49px;
-}
+		    display: block;
+		    margin-top: 0;
+		    position: absolute;
+		    right: -45px;
+		    top: -49px;
+		}
 		
 		#mobile-menu2-trigger,
 		#mobile-menu-trigger { 
@@ -484,22 +485,8 @@
 			margin-top: 10px;
 			margin-right: 10px;
 		}
-	}	
-		@media (min-width: 980px) and (max-width: 1199px) {
-		
-		#menu,#menu2 { display: none; }
-		.sf-mega {
-			width: 100%;
-		}
-		
-		#mobile-menu2-trigger,
-		#mobile-menu-trigger { 
-			position: absolute;
-			display: block;
-			top: -43px;
-			right: 10px;
-		}
-	}	
+	}
+
 /* #Mobile (Portrait and Landscape )
    ========================================================================== */
 	
